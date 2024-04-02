@@ -369,6 +369,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &279234663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9085128206205048746, guid: 2dafb6767648e44cfbfce23e1e5c6728, type: 3}
+  m_PrefabInstance: {fileID: 3171304906979885714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &279234666
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279234663}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.37, y: 1.75}
+    newSize: {x: 0.37, y: 1.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.37, y: 1.75}
+  m_EdgeRadius: 0
 --- !u!1 &296784630
 GameObject:
   m_ObjectHideFlags: 0
@@ -2232,6 +2263,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1809836596 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8211780872086828588, guid: 2dafb6767648e44cfbfce23e1e5c6728, type: 3}
+  m_PrefabInstance: {fileID: 3171304906979885714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1809836599
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809836596}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.37, y: 1.75}
+    newSize: {x: 0.37, y: 1.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.37, y: 1.75}
+  m_EdgeRadius: 0
 --- !u!1 &1814294667
 GameObject:
   m_ObjectHideFlags: 0
@@ -2242,6 +2304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1814294668}
   - component: {fileID: 1814294669}
+  - component: {fileID: 1814294670}
   m_Layer: 0
   m_Name: Grass Holder
   m_TagString: Untagged
@@ -2282,6 +2345,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2.5
+--- !u!61 &1814294670
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814294667}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.2671261, y: -1.139834}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.341991, y: 0.2845667}
+  m_EdgeRadius: 0
 --- !u!1 &1965700478
 GameObject:
   m_ObjectHideFlags: 0
