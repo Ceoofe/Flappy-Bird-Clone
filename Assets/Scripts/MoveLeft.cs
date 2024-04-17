@@ -16,5 +16,13 @@ public class MoveLeft : MonoBehaviour
     {
         // Move pipes left
         transform.Translate(Vector2.left * Time.deltaTime * speed);
+;
+        if(transform.position.x < -2.8f)
+        {
+            if(gameObject.CompareTag("Pipes"))
+            {
+                Destroy(gameObject);
+            }
+        }
     }
 }
