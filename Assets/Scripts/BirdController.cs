@@ -42,6 +42,6 @@ public class BirdController : MonoBehaviour
     {
         // Set alive to false on Collision
         isAlive = false;
-        Time.timeScale = 0f;
+        
     }
 }
